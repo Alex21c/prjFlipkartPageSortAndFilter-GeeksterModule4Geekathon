@@ -1,7 +1,5 @@
 # Project Flipkart Page Sort & Filter || Geekster Module #4 Geekathon
-![](mvcDiagram.png)
 ![](thumbnail.png)
-
 
 ## 1. Objectives
 + Design an User Interface similar to Flipkart page
@@ -13,12 +11,15 @@
 + Practical use of MVC framework
 + manipulating JSON data using sort, map, filter and forEach methods
 
-## 3. Hosted Link (Live Preview)
+## 3. MVC Diagrams
+![](./MVC/mvcDiagram1-InitialScreenPreparationByTheView.png)
+
+## 4. Hosted Link (Live Preview)
 [Project Flipkart Page Sort & Filter](https://alex21c.github.io/prjFlipkartPageSortAndFilter-GeeksterModule4Geekathon/)
 
-## 4. Output Screenshots
+## 5. Output Screenshots
 
-## 5. How to set up the development environment on yours local machine
+## 6. How to set up the development environment on yours local machine
 ### a. Install Node.js from the link below
 [Node.js](https://nodejs.org/en)
 
@@ -43,7 +44,7 @@ npm install
 npm run start
 ```
 
-## 6. Tech Stack Used
+## 7. Tech Stack Used
 + [MVC Framework](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
 + [Tailwind CSS](https://tailwindcss.com/)
 + [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -56,5 +57,5 @@ npm run start
 + [VS Code](https://code.visualstudio.com/)
 
 
-## 7. Author
+## 8. Author
 [Abhishek kumar](https://www.linkedin.com/in/alex21c/), ([Geekster](https://geekster.in/) MERN Stack FS-14 Batch) || Team-12
