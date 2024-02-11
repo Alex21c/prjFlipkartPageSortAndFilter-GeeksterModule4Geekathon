@@ -1,0 +1,12 @@
+{
+  "author": "Abhishek Kumar",
+  "GitHub": "https://github.com/Alex21c",
+  "linkedIn": "https://www.linkedin.com/in/alex21c/",
+  "license": "GNU General Public License",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "scripts": {    
+    "start": "npx concurrently  \"live-server\" \"tailwindcss -i CSS/index.css -o CSS/tailwindIndex.css --watch \""
+  }
+}

@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+Command for Tailwind build || live cache refresh
+npx tailwindcss -i index.css -o tailwind.css --watch 
+*/
+:root {
+  --color-white: #FFFFFF;
+}
+
+*, ::before, ::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.displayNone {
+  display: none;
+}
+
+html {
+  font-size: 16px;
+  
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+/* h1{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+} */
+/* HEADER NAVBAR (BEGIN)  */
+
+ul{
+  list-style: none;
+}
+nav{
+  display: flex;
+  flex-direction: column;
+}
+.wrapperUpperNav{
+  background-color: #3f73df;
+  display: flex;
+  color:white;
+  justify-content: center;
+  padding: .5rem 0;
+  align-items: center;
+  gap: 1rem;
+}
+.wrapperUpperNav div.logo{
+  display: flex;
+  flex-direction: column;
+  width: 6rem;
+}
+
+.wrapperUpperNav div.logo img{
+  object-fit:cover;
+}
+.wrapperUpperNav div.logo div a{
+  font-size:.8rem;
+}
+.wrapperUpperNav div.logo div a span{
+  color:#ffe500;
+  padding-right: .2rem;
+}
+
+.wrapperUpperNav div.logo div img{
+  width: .7rem;
+}
+.wrapperUpperNav ul{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.wrapperUpperNav a{
+  text-decoration: none;
+  color:white;
+}
+.wrapperUpperNav ul li:first-child a{
+  color:#3f73df;
+  padding: 0.3rem 2.5rem;
+  background-color: white;
+  border-radius: 2px;
+}
+.wrapperUpperNav ul li a {
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+}
+.wrapperUpperNav .searchBar{
+  position: relative;
+}
+.wrapperUpperNav .searchBar input{
+  width: 30rem;
+  padding: .5rem;
+}
+.wrapperUpperNav .searchBar>span.material-symbols-outlined{
+  position: absolute;
+  color: #3f73df;
+  right: .7rem;
+  top: 0.4rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+} 
+.material-symbols-outlined{
+  font-size: 1rem;
+}
+.wrapperLowerNav{
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  /* margin: auto; */
+}
+
+.wrapperLowerNav li{
+  display:flex;
+  flex-direction: column;
+  width: 7rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.wrapperLowerNav li img{
+  /* object-fit: cover; */
+  width: 4rem;
+}
+.wrapperLowerNav li a{
+  text-decoration: none;
+  color:black;
+}
+.wrapperLowerNav li a span.categoryTitle{
+  font-size: .8rem;
+  font-weight: normal;
+  margin-top: .2rem;
+  display:flex;
+  align-items: center;
+  font-weight: 500;
+}
+li.beautyToysAndMore{
+  width:9rem;
+}
+/* HEADER NAVBAR (END) */
+
+
+/* THE PRODUCTS WRAPPER (BEGIN) */
+div#divWrapperProducts{
+  display: grid;
+  grid-template-columns: repeat(3, 22rem);
+  gap:2rem;
+  margin:2rem 0;
+}
+/* THE PRODUCTS WRAPPER (END) */
